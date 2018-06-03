@@ -12,6 +12,7 @@
 		B622A9BC20C3088C0070ECF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B622A9BA20C3088C0070ECF5 /* Main.storyboard */; };
 		B622A9BE20C3088D0070ECF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B622A9BD20C3088D0070ECF5 /* Assets.xcassets */; };
 		B622A9C120C3088D0070ECF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B622A9BF20C3088D0070ECF5 /* LaunchScreen.storyboard */; };
+		B622A9C920C308B20070ECF5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622A9C820C308B20070ECF5 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B622A9BD20C3088D0070ECF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B622A9C020C3088D0070ECF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B622A9C220C3088D0070ECF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B622A9C820C308B20070ECF5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../../BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				B622A9B620C3088B0070ECF5 /* AppDelegate.swift */,
+				B622A9C820C308B20070ECF5 /* BaseViewController.swift */,
 				B622A9B820C3088B0070ECF5 /* ViewController.swift */,
 				B622A9BA20C3088C0070ECF5 /* Main.storyboard */,
 				B622A9BD20C3088D0070ECF5 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			files = (
 				B622A9B920C3088B0070ECF5 /* ViewController.swift in Sources */,
 				B622A9B720C3088B0070ECF5 /* AppDelegate.swift in Sources */,
+				B622A9C920C308B20070ECF5 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
